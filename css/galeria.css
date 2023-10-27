@@ -1,0 +1,35 @@
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  overflow: hidden;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 3%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.galeria > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px white;
+}
+
+.galeria a:hover {
+  /*filter: blur(2px);*/
+  transform: scale(1.05);
+}
+.conoceMas {
+  background-color: #1111118e;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
