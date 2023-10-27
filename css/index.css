@@ -50,6 +50,7 @@ nav ul a {
   display: block;
   padding: 8px;
 }
+
 nav ul a:hover {
   color: #f36f21;
   text-decoration: underline;
@@ -105,20 +106,21 @@ main {
 }
 #footer {
   display: flex;
+  width: 100vh;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  height: 300px;
+  height: 60%;
   width: 100%;
-  padding: 0 10% 0 10%;
+  padding: 20px 10% 20px 10%;
   background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 }
 #footer .footer__imgContainer {
-  height: 200px;
+  height: 30%;
   border-radius: 50%;
 }
 #footer .footer__imgContainer img {
-  max-width: 200px;
+  max-width: 30%;
   border-radius: 50%;
 }
 .footer__schedule {
@@ -128,16 +130,35 @@ main {
 }
 .footer__schedule h3 {
   color: #ffffffd8;
-  font-size: 50px;
+  font-size: 2em;
   font-weight: bold;
 }
 .footer__schedule h4 {
   color: #000000;
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 .footer__schedule h5 {
   color: #f8eae2;
-  font-size: 50px;
+  font-size: 2em;
   font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 8px;
+  }
+  .header__homeIcon {
+    width: 20px;
+    cursor: pointer;
+  }
+  nav ul a {
+    color: #fff;
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+  }
+  main {
+    padding: 0 2% 0 2%;
+  }
 }

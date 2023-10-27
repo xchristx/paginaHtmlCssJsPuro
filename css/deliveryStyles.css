@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .deliveryContainer__info {
   display: flex;
@@ -37,6 +38,12 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+.deliveryContainer__imgContainer img {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 80%;
 }
 .deliveryContainer__imgContainer p {
   color: #000000b0;

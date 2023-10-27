@@ -96,3 +96,45 @@
 .carousel__button.next {
   right: -5rem;
 }
+
+@media screen and (max-width: 738px) {
+  .carousel {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 738px) {
+  .carousel {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+  }
+  .carousel__button.prev {
+    left: -2rem;
+  }
+
+  .carousel__button.next {
+    right: -2rem;
+  }
+  .carousel__button {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  .carousel__button.prev {
+    left: -1rem;
+  }
+
+  .carousel__button.next {
+    right: -1rem;
+  }
+  .carousel__button {
+    font-size: 1rem;
+  }
+}
