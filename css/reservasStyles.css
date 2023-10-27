@@ -1,0 +1,80 @@
+.reservasContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  background-color: #1111118e;
+  border-radius: 10px;
+  padding: 20px;
+}
+.reservasContainer > form > button {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  background-color: #f36f21;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.reservasContainer > h2 {
+  color: #fff;
+}
+.reservasContainer__content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservasContainer__content__inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.reservasContainer__content__inputBox > input {
+  padding: 10px 14px 10px 14px;
+  width: 24rem;
+  max-width: 90%;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(218, 218, 218, 0.63);
+  color: #000;
+  font-weight: bold;
+}
+.reservasContainer__content__inputBox > label {
+  color: #fff;
+}
+.reservasContainer__content__inputBox > input::placeholder {
+  color: #0000008e;
+}
+.reservasContainer__content__inputBox > input::-ms-input-placeholder {
+  color: #01010126;
+}
+
+.reservasContainer__selectBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #fff;
+}
+.reservasContainer__select {
+  padding: 10px 14px 10px 14px;
+  position: relative;
+  width: 24rem;
+  max-width: 90%;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(218, 218, 218, 0.63);
+  color: #000;
+  font-weight: bold;
+  border-right: 12px solid transparent;
+}
+select:required:disabled {
+  color: #01010126;
+}

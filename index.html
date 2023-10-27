@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/assets/img/logo del centro.png" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/carouselStyles.css" />
+    <link rel="stylesheet" href="./css/reservasStyles.css" />
+    <link rel="stylesheet" href="./css/menuStyles.css" />
+    <link rel="stylesheet" href="./css/deliveryStyles.css" />
+    <script src="./js/carouselScript.js" defer></script>
+    <script src="./js/menuScript.js" defer></script>
+    <script src="./js/smoothScroll.js" defer></script>
+    <title>Pablo's restaurant</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">
+        <img src="./assets/icons/home_icon-icons.com_73532.svg" class="header__homeIcon" />
+      </a>
+      <ul>
+        <li><a href="#menuRestaurant">Menu</a></li>
+        <li><a href="#direccion">Dirección</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#footer">Atención</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="carouselContainer">
+        <div class="carousel" data-carousel>
+          <button class="carousel__button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel__button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="carousel__slide" data-active>
+              <img src="./assets/img/logo del centro.png" alt="pablos" id="logo" />
+              <div class="pablosDescriptionContainer">
+                <h1 class="pablosDescription">RESTAURANTE TÍPICO BOLIVIANO EN ARMONÍA CON LA NATURALEZA Y TRADICIÓN</h1>
+              </div>
+            </li>
+            <li class="carousel__slide">
+              <img src="./assets/img/BIG TIME FOOD.png" alt="big time food" />
+            </li>
+            <li class="carousel__slide">
+              <img src="./assets/img/gatito 1.jpeg" alt="gatito" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="menuRestaurant" class="menuContainer">
+        <h1>Menu de platos:</h1>
+        <div id="menuRestaurantPlatos" class="menuContainer__platos"></div>
+        <h1>Menu de bebidas</h1>
+        <div class="menuContainer__bebidasContainer">
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>JARRA CHOP</h2>
+            <h3>35 bs.</h3>
+          </div>
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>VASO CHOP</h2>
+            <h3>25 bs.</h3>
+          </div>
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>TAQUIÑA LITRO</h2>
+            <h3>22 bs.</h3>
+          </div>
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>HUARI</h2>
+            <h3>20 bs.</h3>
+          </div>
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>GASEOSA 2LTS.</h2>
+            <h3>15 bs.</h3>
+          </div>
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>GASEOSA POPULAR</h2>
+            <h3>6 bs.</h3>
+          </div>
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>AGUA 2LTS.</h2>
+            <h3>10 bs.</h3>
+          </div>
+          <div class="menuContainer__bebidasContainer__content">
+            <h2>REFRESCO NATURA</h2>
+            <h3>10 - 15 bs.</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="direccion" class="directionContainer">
+        <div class="directionContainer__content">
+          <h3>
+            Estamos ubicados en el departamento de Cochabamba en la provincia de Quillacollo, está situado cerca de Parque Rodríguez y
+            Mercado de Granos; Calle Junin entre Thomas Bata y 21 de septiembre
+          </h3>
+
+          <img src="./assets/img/direccion.png" />
+        </div>
+        <a href="https://maps.app.goo.gl/fw8mXNchdgbS26KB6" target="_blank">
+          <button>
+            <img src="./assets/icons/location.svg" />
+            Ver en google maps
+          </button>
+        </a>
+      </section>
+
+      <section id="reservas" class="reservasContainer">
+        <h2>Realiza tu reserva:</h2>
+        <form class="reservasContainer__content">
+          <div class="reservasContainer__content__inputBox">
+            <label>Nombre</label>
+            <input type="text" placeholder="nombre" />
+          </div>
+          <div class="reservasContainer__content__inputBox">
+            <label>Fecha</label>
+            <input type="datetime-local" placeholder="date" />
+          </div>
+          <div class="reservasContainer__selectBox">
+            <label>Selecciona el plato:</label>
+            <select class="reservasContainer__select">
+              <option disabled selected hidden></option>
+              <option>CHARQUE</option>
+              <option>PATO</option>
+              <option>PACU</option>
+              <option>TRUCHA</option>
+              <option>PIQUE</option>
+              <option>PLACHITAS</option>
+              <option>LAPING</option>
+              <option>BRAZUELO</option>
+              <option>COSTILLAR</option>
+            </select>
+          </div>
+          <div class="reservasContainer__selectBox">
+            <label>Capacidad de la mesa:</label>
+            <select required class="reservasContainer__select">
+              <option disabled selected hidden></option>
+              <option>2</option>
+              <option>4</option>
+              <option>6</option>
+              <option>10</option>
+            </select>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section id="delivery" class="deliveryContainer">
+        <div class="deliveryContainer__info">
+          <h3>DELYVERY</h3>
+          <p>Puedes realiazar tus pedidos a los siguientes numeros:</p>
+          <p>
+            <span> <a target="_blank" href="https://wa.link/msv119">70700707</a> </span> -
+            <span><a target="_blank" href="https://wa.link/h4zcs1">79796050</a></span> -
+            <span><a target="_blank" href="">4362935</a></span>
+          </p>
+          <h4>O contactanos a travez de nuestras redes sociales:</h4>
+          <div>
+            <a href="https://www.facebook.com/profile.php?id=100063540734494" target="_blank">
+              <img src="./assets/icons/facebook.svg" />
+            </a>
+            <a href="https://www.instagram.com/pabloschop/" target="_blank">
+              <img src="./assets/icons/instagram.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="deliveryContainer__imgContainer">
+          <p>Quédate en casa, nosotros enviamos tu pedido</p>
+          <img src="./assets/img/delivery.jpg" alt="delivery" />
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer__imgContainer">
+        <img src="./assets/img/logo del centro.png" alt="" />
+      </div>
+      <div class="footer__schedule">
+        <h3>Horarios de atención:</h3>
+        <h4>Jueves a domingo</h4>
+        <h5>09 am - 12 pm</h5>
+      </div>
+    </footer>
+  </body>
+</html>

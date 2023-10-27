@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "nombre": "CHARQUE",
+    "precio": "120 - 60 bs.",
+    "tags": ["Charque de res", "Mote", "Quesillo", "Papa", "Huevo"],
+    "img": "../assets/img/charqueGoogle.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "PATO",
+    "precio": "50 bs.",
+    "tags": ["Pato dorado", "Macarrón", "Papa", "Ensalada"],
+    "img": "../assets/img/patoGoogle.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "PACU",
+    "precio": "50 bs.",
+    "tags": ["Pacu frito", "Arroz", "Ensalada"],
+    "img": "../assets/img/pacuGoogle.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "TRUCHA",
+    "precio": "35 bs.",
+    "tags": ["Trucha frita", "Arroz", "Yuca", "Ensalada"],
+    "img": "../assets/img/truchaGoogle.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "PIQUE",
+    "precio": "75 - 130 bs.",
+    "tags": ["Papa frita", "Lomo de res", "Salchicha", "Ensalada"],
+    "img": "../assets/img/piqueGoogle.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "PLANCHITAS",
+    "precio": "70 bs.",
+    "tags": ["Chuleta de res", "Yuca", "Chorrellana", "Chorizo Parrillero", "Salchicha", "Huevo frito", "Plátano frito"],
+    "img": "../assets/img/planchitaGoogle.jpg"
+  },
+  {
+    "id": "7",
+    "nombre": "LAPHING",
+    "precio": "40 bs.",
+    "tags": ["Laphing de res", "Mote de aba", "Choclo", "Ensalada"],
+    "img": "../assets/img/laphingGoogle.jpg"
+  },
+  {
+    "id": "8",
+    "nombre": "BRAZUELO",
+    "precio": "40 bs.",
+    "tags": ["Cordero frito", "Arroz", "Papa", "Ensalada"],
+    "img": "../assets/img/brazueloGoogle.webp"
+  },
+  {
+    "id": "9",
+    "nombre": "COSTILLAR",
+    "precio": "40 bs.",
+    "tags": ["Costillar de cordero frito", "Arroz", "Ensalada", "Papa"],
+    "img": "../assets/img/costillarGoogle.jpg"
+  },
+  {
+    "id": "10",
+    "nombre": "POSTRES VARIOS",
+    "precio": "",
+    "tags": ["Gelatina", "Flan", "Masitas"],
+    "img": "../assets/img/postresGoogle.webp"
+  }
+]
